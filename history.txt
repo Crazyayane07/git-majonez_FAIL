@@ -1,0 +1,50 @@
+  657  mkdir git-majonez
+  658  cd git-majonez/
+  659  git init
+  660  touch main.cpp
+  661  g++ main.cpp 
+  662  ./a.out 
+  663  git status
+  664  git add main.cpp 
+  665  git status
+  666  git commit -m"Initial commit"
+  667  git status
+  668  g++ main.cpp 
+  669  ./a.out 
+  670  git status
+  671  git add main.cpp 
+  672  git status
+  673  git commit -m"Farewell changed"
+  674  git status
+  675  git log
+  676  git remote add origin https://github.com/Crazyayane07/git-majonez.git
+  677  git push -u origin master 
+  678  git branch
+  679  git checkout -b cs
+  680  git branch
+  681  git log
+  682  git reset --hard 95fbecc8948c8c7db50ba7df9065a8c1e973b62e
+  683  git log
+  684  git status
+  685  g++ main.cpp 
+  686  ./a.out 
+  687  git add main.cpp 
+  688  git status
+  689  git commit -m"Greetings"
+  690  git push origin cs
+  691  git branch
+  692  git checkout master 
+  693  git branch
+  694  git merge cs
+  695  git status
+  696  git add main.cpp 
+  697  git status
+  698  git commit
+  699  git log
+  700  git pull
+  701  git push
+  702  touch history.txt
+  703  history
+  704  history | tail -n47
+  705  history | tail -n49
+  706  history | tail -n50 > history.txt 
